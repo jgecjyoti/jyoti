@@ -91,7 +91,7 @@ const data = [
 		id: 11,
 		name: "Shakil Ahmed",
 		department: "ECE-2025",
-		position: "Cultural Secretary-Jyoti",
+		position: "Cultural Coordinator-Jyoti",
 		image: "/assets/Shakil-Ahmed.png",
 		link: "https://www.linkedin.com/in/shakil-ahmed-426b89229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
 	},
