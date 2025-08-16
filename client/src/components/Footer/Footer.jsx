@@ -164,7 +164,7 @@ const Footer = () => {
       </div>
       <div className="border-[1px] mt-14 border-gray-600"></div>
       <span className="block  lg:text-lg mt-4 text-xs text-gray-400 text-center ">
-        © 2024{" "}
+        © 2025{" "}
         <a href="/" className="hover:underline">
           Jyoti JGEC™
         </a>
