@@ -171,6 +171,17 @@ const Team = () => {
 				<hr className="w-[50%]" />
 				<div className="flex mt-10 lg:mt-8 h-[8vh] justify-center items-center">
 					<NavLink
+						to="/team2k25"
+						onClick={() => window.scrollTo(0, 0)}
+						className=" tinos-regular text-xl font-[400] shadow-md">
+						<div className="border teambutton cursor-pointer border-black p-5 px-10">
+							Show 2K25 Team
+						</div>
+					</NavLink>
+				</div>
+				<hr className="w-[50%]" />
+				<div className="flex mt-10 lg:mt-8 h-[8vh] justify-center items-center">
+					<NavLink
 						to="/team2k24"
 						onClick={() => window.scrollTo(0, 0)}
 						className=" tinos-regular text-xl font-[400] shadow-md">

@@ -24,6 +24,7 @@ import AdminCertificate from "./components/Admin/AdminCertificate";
 import Certificates from "./components/Certificate/Certificates";
 import Error from "./components/Error Page/Error";
 import Team2k24 from "./components/Team/Team2k24";
+import Team2k25 from "./components/Team/Team2k25";
 // import Team2k23 from "./components/Team/Team2k23";
 function App() {
   const [loading, setLoading] = useState(true);
@@ -47,6 +48,7 @@ function App() {
         <Route path="/signup" element={<SignUp />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/team2k24" element={<Team2k24 />}/>
+        <Route path="/team2k25" element={<Team2k25 />}/>
         <Route path="/logout" element={<Logout />}/>
         <Route path="/verify" element={<Certificates />}/>
         <Route path="/admin" element={<AdminLayout />}>
