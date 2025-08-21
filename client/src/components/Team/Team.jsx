@@ -24,11 +24,11 @@ const data = [
 	},
 	{
 		id: 3,
-		name: "Rohit Mondal",
-		department: "CSE-2025",
-		position: "Joint Secretary-Jyoti",
-		image: "/assets/Rohit-Mondal.png",
-		link: "https://www.linkedin.com/in/rohit-mondal-b55ab522a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		name: "Ankit Biswas",
+		department: "EE-2025",
+		position: "Secretary-Jyoti",
+		image: "/assets/Ankit-Biswas.png",
+		link: "https://www.linkedin.com/in/ankit-biswas0110/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3B0kMjGasgQcOlafZgZ%2F1qWg%3D%3D",
 	},
 	{
 		id: 4,
