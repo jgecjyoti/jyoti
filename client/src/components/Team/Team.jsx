@@ -27,7 +27,7 @@ const data = [
 		name: "Ankit Biswas",
 		department: "EE-2025",
 		position: "Secretary-Jyoti",
-		image: "/assets/Ankit-Biswas.png",
+		image: "/assets/Ankit-Biswas.jpg",
 		link: "https://www.linkedin.com/in/ankit-biswas0110/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3B0kMjGasgQcOlafZgZ%2F1qWg%3D%3D",
 	},
 	{
