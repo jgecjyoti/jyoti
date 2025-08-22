@@ -44,7 +44,7 @@ const data = [
 		department: "EE-2026",
 		position: "Manager-Jyoti",
 		image: "/assets/BITHIKA-ROY.png",
-		link: "https://www.linkedin.com/in/md-masudur-rahaman-860a5a211",
+		link: "https://www.linkedin.com/in/bithika-roy-84863a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 	},
 	{
 		id: 6,
@@ -134,7 +134,7 @@ const data = [
 		department: "EE-2026",
 		position: "Librarian-Jyoti",
 		image: "/assets/PARAG-DE.png",
-		link: "https://www.linkedin.com/in/sohan-chakma-430378235/",
+		link: "https://www.linkedin.com/in/parag-de-5820a2380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 	},
 	// {
 	// 	id: 17,
