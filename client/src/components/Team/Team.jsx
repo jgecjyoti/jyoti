@@ -52,7 +52,7 @@ const data = [
 		department: "CSE-2026",
 		position: "Manager-Jyoti",
 		image: "/assets/REBANTA-SARKAR.png",
-		link: "www.linkedin.com/in/rebanta-sarkar-4b7939271",
+		link: "https://www.linkedin.com/in/rebanta-sarkar-4b7939271",
 	},
 	// {
 	// 	id: 7,
