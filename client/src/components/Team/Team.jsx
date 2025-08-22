@@ -75,7 +75,7 @@ const data = [
 		name: "Shree Banerjee ",
 		department: "ME-2026",
 		position: "Joint Cashier-Jyoti",
-		image: "/SHREE-BANERJEE.png",
+		image: "assets/SHREE-BANERJEE.png",
 		link: "https://www.linkedin.com/in/shree-banerjee-824814265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 	},
 
