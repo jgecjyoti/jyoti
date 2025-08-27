@@ -86,30 +86,6 @@ const data = [
 		image: "/assets/REBANTA-SARKAR.png",
 		link: "https://www.linkedin.com/in/rebanta-sarkar-4b7939271",
 	},
-	// {
-	// 	id: 9,
-	// 	name: "Rajat Nandi",
-	// 	department: "ECE-2025",
-	// 	position: "Cashier-Jyoti",
-	// 	image: "/assets/Rajat-Nandi.png",
-	// 	link: "http://linkedin.com/in/rajat-nandi-b505aa230",
-	// },
-	// {
-	// 	id: 10,
-	// 	name: "Tapabrato Mondal",
-	// 	department: "ECE-2025",
-	// 	position: "Joint Cashier & Social Media-Jyoti",
-	// 	image: "/assets/Tapabrata-Mondal.png",
-	// 	link: "https://www.linkedin.com/in/tapabrato-mondal-0ba049224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-	// },
-	{
-		id: 11,
-		name: "Shree Banerjee ",
-		department: "ME-2026",
-		position: "Joint Cashier-Jyoti",
-		image: "assets/SHREE-BANERJEE.png",
-		link: "https://www.linkedin.com/in/shree-banerjee-824814265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-	},
 
 	{
 		id: 12,
@@ -127,14 +103,23 @@ const data = [
 		image: "/assets/Abir-GANGULY.png",
 		link: "https://www.linkedin.com/in/abir-ganguly-55892b260/?originalSubdomain=in",
 	},
-	// {
-	// 	id: 14,
-	// 	name: "Mahek Parvez",
-	// 	department: "Civil-2025",
-	// 	position: "Cultural Coordinator-Jyoti",
-	// 	image: "/assets/Mahek-Parvez.png",
-	// 	link: "https://www.linkedin.com/in/mahek-parvez-362bb9235",
-	// },
+	{
+		id: 6,
+		name: "Toushali Saha Roy",
+		department : "CE-2026",
+		position : "Cultural Coordinator",
+		image: "/assets/TOUSHALI-SAHA-ROY.jpg",
+		link: "https://www.linkedin.com/in/toushali-saha-roy-240407256?trk=contact-info",
+	},
+
+	{
+		id: 14,
+		name: "Kaushik Saha",
+		department: "ECE-2026",
+		position: "Cultural Coordinator-Jyoti",
+		image: "/assets/Kaushik-Saha.jpg",
+		link: "https://www.linkedin.com/in/kaushik-saha-7a10a225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+	},
 	// {
 	// 	id: 15,
 	// 	name: "Ananya Mandal",
@@ -143,14 +128,14 @@ const data = [
 	// 	image: "/assets/Ananya-Mandal.png",
 	// 	link: "https://www.linkedin.com/in/ananya-mandal-393578250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 	// },
-	{
-		id: 16,
-		name: "Arijit Mitra",
-		department: "ECE-2026",
-		position: "Website Handler-Jyoti",
-		image: "/assets/Arijit-Mitra.png",
-		link: "https://www.linkedin.com/in/arijit-mitra-984668254/",
-	},
+	// {
+	// 	id: 16,
+	// 	name: "Arijit Mitra",
+	// 	department: "ECE-2026",
+	// 	position: "Website Handler-Jyoti",
+	// 	image: "/assets/Arijit-Mitra.png",
+	// 	link: "https://www.linkedin.com/in/arijit-mitra-984668254/",
+	// },
 	{
 		id: 17,
 		name: "Souhardya Deb",
@@ -168,14 +153,7 @@ const data = [
 		image: "/assets/PARAG-DE.png",
 		link: "https://www.linkedin.com/in/parag-de-5820a2380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 	},
-	// {
-	// 	id: 19,
-	// 	name: "Bikram Ray",
-	// 	department: "CSE-2025",
-	// 	position: "Social Media Handler-Jyoti",
-	// 	image: "/assets/Bikram-Ray.png",
-	// 	link: "https://www.linkedin.com/in/bikram-ray-29848518a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-	// },
+
 ];
 
 const Team = () => {
