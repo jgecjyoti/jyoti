@@ -41,13 +41,13 @@ const data = [
 	{
 		id: 5,
 		name: "Sayan Sharma",
-		department: "CE-2025",
+		department: "CE-2026",
 		position: "Cashier-Jyoti",
 		image: "/assets/Sayan-Sharma.png",
 		link: "xx",
 	},
 		{
-		id: 16,
+		id: 6,
 		name: "Arijit Mitra",
 		department: "ECE-2026",
 		position: "Cashier & Website Handler-Jyoti",
@@ -55,23 +55,15 @@ const data = [
 		link: "https://www.linkedin.com/in/arijit-mitra-984668254/",
 	},
 		{
-		id: 11,
+		id: 7,
 		name: "Shree Banerjee ",
 		department: "ME-2026",
 		position: "Joint Cashier-Jyoti",
 		image: "assets/SHREE-BANERJEE.png",
 		link: "https://www.linkedin.com/in/shree-banerjee-824814265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 	},
-	// {
-	// 	id: 6,
-	// 	name: "Rajat Nandi",
-	// 	department: "ECE-2025",
-	// 	position: "Cashier-Jyoti",
-	// 	image: "/assets/Rajat-Nandi.png",
-	// 	link: "http://linkedin.com/in/rajat-nandi-b505aa230",
-	// },
 	{
-		id: 7,
+		id: 8,
 		name: "Bithika Roy",
 		department: "EE-2026",
 		position: "Manager-Jyoti",
@@ -79,7 +71,7 @@ const data = [
 		link: "https://www.linkedin.com/in/bithika-roy-84863a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 	},
 	{
-		id: 8,
+		id: 9,
 		name: "Rebanta Sarkar",
 		department: "CSE-2026",
 		position: "Manager-Jyoti",
@@ -88,7 +80,7 @@ const data = [
 	},
 
 	{
-		id: 12,
+		id: 10,
 		name: "Ranajoy Ghoshal",
 		department: "ECE-2026",
 		position: "Stakeholder-Jyoti",
@@ -96,7 +88,7 @@ const data = [
 		link: "https://www.linkedin.com/in/ranajay-ghoshal-64069732a/",
 	},
 	{
-		id: 13,
+		id: 11,
 		name: "Abir Ganguly",
 		department: "CE-2026",
 		position: "Cultural Coordinator-Jyoti",
@@ -104,7 +96,7 @@ const data = [
 		link: "https://www.linkedin.com/in/abir-ganguly-55892b260/?originalSubdomain=in",
 	},
 	{
-		id: 6,
+		id: 12,
 		name: "Toushali Saha Roy",
 		department : "CE-2026",
 		position : "Cultural Coordinator",
@@ -113,31 +105,16 @@ const data = [
 	},
 
 	{
-		id: 14,
+		id: 13,
 		name: "Kaushik Saha",
 		department: "ECE-2026",
 		position: "Cultural Coordinator-Jyoti",
 		image: "/assets/Kaushik-Saha.jpg",
 		link: "https://www.linkedin.com/in/kaushik-saha-7a10a225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 	},
-	// {
-	// 	id: 15,
-	// 	name: "Ananya Mandal",
-	// 	department: "Civil-2025",
-	// 	position: "Cultural Coordinator-Jyoti",
-	// 	image: "/assets/Ananya-Mandal.png",
-	// 	link: "https://www.linkedin.com/in/ananya-mandal-393578250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-	// },
-	// {
-	// 	id: 16,
-	// 	name: "Arijit Mitra",
-	// 	department: "ECE-2026",
-	// 	position: "Website Handler-Jyoti",
-	// 	image: "/assets/Arijit-Mitra.png",
-	// 	link: "https://www.linkedin.com/in/arijit-mitra-984668254/",
-	// },
+	
 	{
-		id: 17,
+		id: 14,
 		name: "Souhardya Deb",
 		department: "ECE-2026",
 		position: "Website Handler-Jyoti",
@@ -146,7 +123,7 @@ const data = [
 	},
 
 	{
-		id: 18,
+		id: 15,
 		name: "Parag De",
 		department: "EE-2026",
 		position: "Librarian-Jyoti",
