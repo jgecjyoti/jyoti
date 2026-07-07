@@ -34,12 +34,12 @@ const data = [
   {
     id: 3,
     img: `${jeclet2k23}`,
-    title: "Jeclet 2k23",
+    title: "Jeclat 2k23",
   },
   {
     id: 4,
     img: `${jeclet2k231}`,
-    title: "Jeclet 2k23",
+    title: "Jeclat 2k23",
   },
   {
     id: 5,
