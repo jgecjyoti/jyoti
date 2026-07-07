@@ -24,7 +24,7 @@ const data = [
   },
   {
     id: 3,
-    name: "Arkoprovo De",
+    name: "Arkaprova De",
     department: "ECE-2027",
     position: "Joint Secretary-Jyoti",
     image: "/assets/ArkoprovoDe.jpg",
@@ -99,7 +99,7 @@ const data = [
     id: 12,
     name: "Sourav Rakshit",
     department: "EE-2027",
-    position: "Cultural Coordinator",
+    position: "Cultural Coordinator-Jyoti",
     image: "/assets/SouravRakshit.jpg",
     link: "https://www.linkedin.com/in/sourav-rakshit-1ba46b2a4",
   },
@@ -124,7 +124,7 @@ const data = [
 
   {
     id: 15,
-    name: "Nur Alak Mondal",
+    name: "Nur Alam Mondal",
     department: "ECE-2027",
     position: "Librarian-Jyoti",
     image: "/assets/Nur-Alam-Mondal.jpg",
