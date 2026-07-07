@@ -5,181 +5,186 @@ import SoupayanMitra from "../images/SoupayanMitra.jpg";
 import AmitavaRay from "../images/AmitavaRay.jpg";
 
 import "./teamstyle.css";
-import { NavLink } from "react-router-dom";
+import PreviousTeamLink from "./PreviousTeamLink";
 
 const data = [
-	{
-		id: 1,
-		name: "Dr. Amitava Ray",
-		department: "Principal, JGEC",
-		position: "Advisor",
-		image: `${AmitavaRay}`,
-	},
-	{
-		id: 2,
-		name: "Dr. Soupayan Mitra",
-		department: "HOD (ME), JGEC",
-		position: "President-Jyoti",
-		image: `${SoupayanMitra}`,
-	},
-	{
-		id: 3,
-		name: "Ankit Biswas",
-		department: "EE-2026",
-		position: "Secretary-Jyoti",
-		image: "/assets/Ankit-Biswas.png",
-		link: "https://www.linkedin.com/in/ankit-biswas0110/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3B0kMjGasgQcOlafZgZ%2F1qWg%3D%3D",
-	},
-	{
-		id: 4,
-		name: "Subhra Barman",
-		department: "EE-2026",
-		position: "Joint Secretary-Jyoti",
-		image: "/assets/Subhra-Barman.png",
-		link: "https://in.linkedin.com/in/subhra-barman-8b200225a?utm_source=share&utm_medium=member_mweb&utm_campaign=share_via&utm_content=profile",
-	},
-	{
-		id: 5,
-		name: "Sayan Sharma",
-		department: "CE-2026",
-		position: "Cashier-Jyoti",
-		image: "/assets/Sayan-Sharma.png",
-		link: "xx",
-	},
-		{
-		id: 6,
-		name: "Arijit Mitra",
-		department: "ECE-2026",
-		position: "Cashier & Website Handler-Jyoti",
-		image: "/assets/Arijit-Mitra.png",
-		link: "https://www.linkedin.com/in/arijit-mitra-984668254/",
-	},
-		{
-		id: 7,
-		name: "Shree Banerjee ",
-		department: "ME-2026",
-		position: "Joint Cashier-Jyoti",
-		image: "assets/SHREE-BANERJEE.png",
-		link: "https://www.linkedin.com/in/shree-banerjee-824814265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-	},
-	{
-		id: 8,
-		name: "Bithika Roy",
-		department: "EE-2026",
-		position: "Manager-Jyoti",
-		image: "/assets/BITHIKA-ROY.png",
-		link: "https://www.linkedin.com/in/bithika-roy-84863a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-	},
-	{
-		id: 9,
-		name: "Rebanta Sarkar",
-		department: "CSE-2026",
-		position: "Manager-Jyoti",
-		image: "/assets/REBANTA-SARKAR.png",
-		link: "https://www.linkedin.com/in/rebanta-sarkar-4b7939271",
-	},
+  {
+    id: 1,
+    name: "Dr. Amitava Ray",
+    department: "Principal, JGEC",
+    position: "Advisor",
+    image: `${AmitavaRay}`,
+  },
+  {
+    id: 2,
+    name: "Dr. Soupayan Mitra",
+    department: "HOD (ME), JGEC",
+    position: "President-Jyoti",
+    image: `${SoupayanMitra}`,
+  },
+  {
+    id: 3,
+    name: "Arkoprovo De",
+    department: "ECE-2027",
+    position: "Joint Secretary-Jyoti",
+    image: "/assets/ArkoprovoDe.jpg",
+    link: "https://www.linkedin.com/in/arkaprova-de-57628b291",
+  },
+  {
+    id: 4,
+    name: "Sounak Chaudhury",
+    department: "EE-2027",
+    position: "Joint Secretary-Jyoti",
+    image: "assets/SounakChaudhury.jpg",
+    link: "https://www.linkedin.com/in/sounak-chaudhury-5b488a301",
+  },
+  {
+    id: 5,
+    name: "Sayan Das",
+    department: "EE-2027",
+    position: "Joint Cashier-Jyoti",
+    image: "/assets/SayanDas.jpg",
+    link: "https://www.linkedin.com/in/sayan-das-b6b952292",
+  },
+  {
+    id: 6,
+    name: "Souradeep Kundu",
+    department: "EE-2027",
+    position: "Joint Cashier-Jyoti",
+    image: "assets/SOURADEEP-KUNDU.png",
+    link: "https://www.linkedin.com/in/souradeep-kundu-13b784322",
+  },
+  {
+    id: 7,
+    name: "Sanidhya Keshri",
+    department: "EE-2027",
+    position: "Joint Cashier-Jyoti",
+    image: "/assets/SanidhyaKeshri.jpg",
+    link: "https://www.linkedin.com/in/sanidhya-keshri-774063288",
+  },
+  {
+    id: 8,
+    name: "Ayantika Ghosh",
+    department: "CE-2027",
+    position: "Manager & Cultural Coordinator-Jyoti",
+    image: "/assets/AYANTIKA-GHOSH.jpg",
+    link: "https://www.linkedin.com/in/ayantika-ghosh-16666127b",
+  },
+  {
+    id: 9,
+    name: "Subhajit Das",
+    department: "EE-2027",
+    position: "Manager-Jyoti",
+    image: "/assets/SubhajitDas.jpg",
+    link: "https://www.linkedin.com/in/subhajit-das-80a5342b6",
+  },
 
-	{
-		id: 10,
-		name: "Ranajoy Ghoshal",
-		department: "ECE-2026",
-		position: "Stakeholder-Jyoti",
-		image: "/assets/Ranajay-Ghoshal.png",
-		link: "https://www.linkedin.com/in/ranajay-ghoshal-64069732a/",
-	},
-	{
-		id: 11,
-		name: "Abir Ganguly",
-		department: "CE-2026",
-		position: "Cultural Coordinator-Jyoti",
-		image: "/assets/Abir-GANGULY.png",
-		link: "https://www.linkedin.com/in/abir-ganguly-55892b260/?originalSubdomain=in",
-	},
-	{
-		id: 12,
-		name: "Toushali Saha Roy",
-		department : "CE-2026",
-		position : "Cultural Coordinator",
-		image: "/assets/TOUSHALI-SAHA-ROY.jpg",
-		link: "https://www.linkedin.com/in/toushali-saha-roy-240407256?trk=contact-info",
-	},
+  {
+    id: 10,
+    name: "Bipadtaran Mahara ",
+    department: "EE-2027",
+    position: "Stakeholder-Jyoti",
+    image: "/assets/BipadtaranMahara.jpg",
+    link: "https://www.linkedin.com/in/bipad-taran-mahara-2aa759290",
+  },
+  {
+    id: 11,
+    name: "Prerana Roy Bakshi",
+    department: "EE-2027",
+    position: "Cultural Coordinator-Jyoti",
+    image: "/assets/PRERANA-ROY-BAKSHI.jpg",
+    link: "https://www.linkedin.com/in/prerana-roy-bakshi-233008299",
+  },
+  {
+    id: 12,
+    name: "Sourav Rakshit",
+    department: "EE-2027",
+    position: "Cultural Coordinator",
+    image: "/assets/SouravRakshit.jpg",
+    link: "https://www.linkedin.com/in/sourav-rakshit-1ba46b2a4",
+  },
 
-	{
-		id: 13,
-		name: "Kaushik Saha",
-		department: "ECE-2026",
-		position: "Cultural Coordinator-Jyoti",
-		image: "/assets/Kaushik-Saha.jpg",
-		link: "https://www.linkedin.com/in/kaushik-saha-7a10a225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-	},
-	
-	{
-		id: 14,
-		name: "Souhardya Deb",
-		department: "ECE-2026",
-		position: "Website Handler-Jyoti",
-		image: "/assets/Souhardya-Deb.jpg",
-		link: "https://www.linkedin.com/in/souhardya-deb-921578254/",
-	},
+  {
+    id: 13,
+    name: "Jahanara Parvin",
+    department: "EE-2027",
+    position: "Cultural Coordinator-Jyoti",
+    image: "/assets/JahanaraParvin.jpg",
+    link: "https://www.linkedin.com/in/jahanara-parvin-ab69a22a4",
+  },
 
-	{
-		id: 15,
-		name: "Parag De",
-		department: "EE-2026",
-		position: "Librarian-Jyoti",
-		image: "/assets/PARAG-DE.png",
-		link: "https://www.linkedin.com/in/parag-de-5820a2380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-	},
+  {
+    id: 14,
+    name: "Agniva Shee",
+    department: "EE-2027",
+    position: "Social Media Handler-Jyoti",
+    image: "/assets/AgnivaShee.jpeg",
+    link: "https://www.linkedin.com/in/agniva-shee-8658aa290/",
+  },
 
+  {
+    id: 15,
+    name: "Nur Alak Mondal",
+    department: "ECE-2027",
+    position: "Librarian-Jyoti",
+    image: "/assets/Nur-Alam-Mondal.jpg",
+    link: "https://www.linkedin.com/in/nur-alam-mondal-94a8712a2",
+  },
+
+  {
+    id: 16,
+    name: "Gautam Maity",
+    department: "IT-2028",
+    position: "Website Handler-Jyoti",
+    image: "/assets/GautamMaity.jpeg",
+    link: "www.linkedin.com/in/gautam-maity-076526315",
+  },
 ];
 
-const Team = () => {
-	return (
-		<div className="teambackground lg:mt-0 mt-4 ">
-			<div className="items-center pb-4 lg:h-auto pt-8 lg:p-8 text-[#9e9cb6]">
-				<div className="flex flex-col justify-center items-center pb-10">
-					<div className="text-[#915f2e] tinos-regular slideleft font-medium lg:text-5xl  text-[38px] ">
-						Meet Our Core Team
-					</div>
-					<div className="border-[3px] rounded m-1 border-amber-700 slideright w-[25%] lg:w-[5%]"></div>
-				</div>
+const previousYears = [26, 25, 24];
 
-				<div className="flex justify-center fadein flex-wrap gap-8 ">
-					{data.map((e) => (
-						<TeamCard
-							name={e.name}
-							department={e.department}
-							position={e.position}
-							image={e.image}
-							link={e.link}
-						/>
-					))}
-				</div>
-				<hr className="w-[50%]" />
-				<div className="flex mt-10 lg:mt-8 h-[8vh] justify-center items-center">
-					<NavLink
-						to="/team2k25"
-						onClick={() => window.scrollTo(0, 0)}
-						className=" tinos-regular text-xl font-[400] shadow-md">
-						<div className="border teambutton cursor-pointer border-black p-5 px-10">
-							Show 2K25 Team
-						</div>
-					</NavLink>
-				</div>
-				<hr className="w-[50%]" />
-				<div className="flex mt-10 lg:mt-8 h-[8vh] justify-center items-center">
-					<NavLink
-						to="/team2k24"
-						onClick={() => window.scrollTo(0, 0)}
-						className=" tinos-regular text-xl font-[400] shadow-md">
-						<div className="border teambutton cursor-pointer border-black p-5 px-10">
-							Show 2K24 Team
-						</div>
-					</NavLink>
-				</div>
-			</div>
-		</div>
-	);
+const Team = () => {
+  return (
+    <div className="teambackground lg:mt-0 mt-4 ">
+      <div className="items-center pb-4 lg:h-auto pt-8 lg:p-8 text-[#9e9cb6]">
+        <div className="flex flex-col justify-center items-center pb-10">
+          <div className="text-[#915f2e] tinos-regular slideleft font-medium lg:text-5xl  text-[38px] ">
+            Meet Our Core Team
+          </div>
+          <div className="border-[3px] rounded m-1 border-amber-700 slideright w-[25%] lg:w-[5%]"></div>
+        </div>
+
+        <div className="flex justify-center fadein flex-wrap gap-8 ">
+          {data.map((e) => (
+            <TeamCard
+              name={e.name}
+              department={e.department}
+              position={e.position}
+              image={e.image}
+              link={e.link}
+            />
+          ))}
+        </div>
+        <div className="mt-20">
+          <div className="flex flex-col items-center mb-8">
+            <h2 className="text-4xl tinos-regular text-[#915f2e]">
+              Previous Teams
+            </h2>
+            <div className="border-[2px] rounded border-amber-700 w-20 mt-2"></div>
+            <p className="text-gray-600 mt-3 text-center">
+              Explore the Jyoti Core Teams from previous years.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-6">
+            {previousYears.map((year) => (
+              <PreviousTeamLink key={year} year={year} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Team;

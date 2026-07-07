@@ -25,6 +25,7 @@ import Certificates from "./components/Certificate/Certificates";
 import Error from "./components/Error Page/Error";
 import Team2k24 from "./components/Team/Team2k24";
 import Team2k25 from "./components/Team/Team2k25";
+import Team2k26 from "./components/Team/Team2k26";
 // import Team2k23 from "./components/Team/Team2k23";
 function App() {
   const [loading, setLoading] = useState(true);
@@ -45,12 +46,13 @@ function App() {
         <Route path="/notice" element={<Notice />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/form" element={<Form />} />
-        <Route path="/signup" element={<SignUp />}/>
-        <Route path="/login" element={<Login />}/>
-        <Route path="/team2k24" element={<Team2k24 />}/>
-        <Route path="/team2k25" element={<Team2k25 />}/>
-        <Route path="/logout" element={<Logout />}/>
-        <Route path="/verify" element={<Certificates />}/>
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/team2k24" element={<Team2k24 />} />
+        <Route path="/team2k25" element={<Team2k25 />} />
+        <Route path="/team2k26" element={<Team2k26 />} />
+        <Route path="/logout" element={<Logout />} />
+        <Route path="/verify" element={<Certificates />} />
         <Route path="/admin" element={<AdminLayout />}>
           <Route path="/admin/contacts" element={<AdminContacts />} />
           <Route path="/admin/users" element={<AdminUsers />} />
@@ -58,20 +60,20 @@ function App() {
           <Route path="/admin/certificates" element={<AdminCertificate />} />
         </Route>
         <Route path="/admin">
-          <Route path="users" >
+          <Route path="users">
             <Route path=":id" element={<UserEdit />}>
               <Route path="edit" element={<UserEdit />} />
             </Route>
           </Route>
         </Route>
         <Route path="/admin">
-          <Route path="servicelist" >
+          <Route path="servicelist">
             <Route path=":id" element={<NoticeEdit />}>
               <Route path="edit" element={<NoticeEdit />} />
             </Route>
           </Route>
         </Route>
-        <Route path="*" element={<Error/>}/>
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
     </>

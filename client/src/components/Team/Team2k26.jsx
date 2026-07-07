@@ -1,0 +1,162 @@
+import React from "react";
+import TeamCard from "./TeamCard";
+import SoupayanMitra from "../images/SoupayanMitra.jpg";
+
+import AmitavaRay from "../images/AmitavaRay.jpg";
+
+import "./teamstyle.css";
+
+
+const data = [
+  {
+    id: 1,
+    name: "Dr. Amitava Ray",
+    department: "Principal, JGEC",
+    position: "Advisor",
+    image: `${AmitavaRay}`,
+  },
+  {
+    id: 2,
+    name: "Dr. Soupayan Mitra",
+    department: "HOD (ME), JGEC",
+    position: "President-Jyoti",
+    image: `${SoupayanMitra}`,
+  },
+  {
+    id: 3,
+    name: "Ankit Biswas",
+    department: "EE-2026",
+    position: "Secretary-Jyoti",
+    image: "/assets/Ankit-Biswas.png",
+    link: "https://www.linkedin.com/in/ankit-biswas0110/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3B0kMjGasgQcOlafZgZ%2F1qWg%3D%3D",
+  },
+  {
+    id: 4,
+    name: "Subhra Barman",
+    department: "EE-2026",
+    position: "Joint Secretary-Jyoti",
+    image: "/assets/Subhra-Barman.png",
+    link: "https://in.linkedin.com/in/subhra-barman-8b200225a?utm_source=share&utm_medium=member_mweb&utm_campaign=share_via&utm_content=profile",
+  },
+  {
+    id: 5,
+    name: "Sayan Sharma",
+    department: "CE-2026",
+    position: "Cashier-Jyoti",
+    image: "/assets/Sayan-Sharma.png",
+    link: "xx",
+  },
+  {
+    id: 6,
+    name: "Arijit Mitra",
+    department: "ECE-2026",
+    position: "Cashier & Website Handler-Jyoti",
+    image: "/assets/Arijit-Mitra.png",
+    link: "https://www.linkedin.com/in/arijit-mitra-984668254/",
+  },
+  {
+    id: 7,
+    name: "Shree Banerjee ",
+    department: "ME-2026",
+    position: "Joint Cashier-Jyoti",
+    image: "assets/SHREE-BANERJEE.png",
+    link: "https://www.linkedin.com/in/shree-banerjee-824814265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    id: 8,
+    name: "Bithika Roy",
+    department: "EE-2026",
+    position: "Manager-Jyoti",
+    image: "/assets/BITHIKA-ROY.png",
+    link: "https://www.linkedin.com/in/bithika-roy-84863a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    id: 9,
+    name: "Rebanta Sarkar",
+    department: "CSE-2026",
+    position: "Manager-Jyoti",
+    image: "/assets/REBANTA-SARKAR.png",
+    link: "https://www.linkedin.com/in/rebanta-sarkar-4b7939271",
+  },
+
+  {
+    id: 10,
+    name: "Ranajoy Ghoshal",
+    department: "ECE-2026",
+    position: "Stakeholder-Jyoti",
+    image: "/assets/Ranajay-Ghoshal.png",
+    link: "https://www.linkedin.com/in/ranajay-ghoshal-64069732a/",
+  },
+  {
+    id: 11,
+    name: "Abir Ganguly",
+    department: "CE-2026",
+    position: "Cultural Coordinator-Jyoti",
+    image: "/assets/Abir-GANGULY.png",
+    link: "https://www.linkedin.com/in/abir-ganguly-55892b260/?originalSubdomain=in",
+  },
+  {
+    id: 12,
+    name: "Toushali Saha Roy",
+    department: "CE-2026",
+    position: "Cultural Coordinator",
+    image: "/assets/TOUSHALI-SAHA-ROY.jpg",
+    link: "https://www.linkedin.com/in/toushali-saha-roy-240407256?trk=contact-info",
+  },
+
+  {
+    id: 13,
+    name: "Kaushik Saha",
+    department: "ECE-2026",
+    position: "Cultural Coordinator-Jyoti",
+    image: "/assets/Kaushik-Saha.jpg",
+    link: "https://www.linkedin.com/in/kaushik-saha-7a10a225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+
+  {
+    id: 14,
+    name: "Souhardya Deb",
+    department: "ECE-2026",
+    position: "Website Handler-Jyoti",
+    image: "/assets/Souhardya-Deb.jpg",
+    link: "https://www.linkedin.com/in/souhardya-deb-921578254/",
+  },
+
+  {
+    id: 15,
+    name: "Parag De",
+    department: "EE-2026",
+    position: "Librarian-Jyoti",
+    image: "/assets/PARAG-DE.png",
+    link: "https://www.linkedin.com/in/parag-de-5820a2380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+];
+
+const Team2k26 = () => {
+  return (
+    <div className="teambackground lg:mt-0 mt-4 ">
+      <div className="items-center pb-4 lg:h-auto pt-8 lg:p-8 text-[#9e9cb6]">
+        <div className="flex flex-col justify-center items-center pb-10">
+          <div className="text-[#915f2e] tinos-regular slideleft font-medium lg:text-5xl  text-[38px] ">
+            Meet Our Core Team 2k26
+          </div>
+          <div className="border-[3px] rounded m-1 border-amber-700 slideright w-[25%] lg:w-[5%]"></div>
+        </div>
+
+        <div className="flex justify-center fadein flex-wrap gap-8 ">
+          {data.map((e) => (
+            <TeamCard
+              name={e.name}
+              department={e.department}
+              position={e.position}
+              image={e.image}
+              link={e.link}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Team2k26;
