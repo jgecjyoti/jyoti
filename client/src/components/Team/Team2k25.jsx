@@ -148,7 +148,7 @@ const Team2k25 = () => {
       <div className="items-center pb-4 lg:h-auto pt-8 lg:p-8 text-[#9e9cb6]">
         <div className="flex flex-col justify-center items-center pb-10">
           <div className="text-[#915f2e] tinos-regular slideleft font-medium lg:text-5xl  text-[38px] ">
-            Meet Our Core Team
+            Meet Our Core Team 2k25
           </div>
           <div className="border-[3px] rounded m-1 border-amber-700 slideright w-[25%] lg:w-[5%]"></div>
         </div>

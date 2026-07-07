@@ -1,47 +1,58 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa6";
-import {LazyLoadImage} from "react-lazy-load-image-component"
-const TeamCard = (props) => {
-  return (
-    <div>
-      <section
-        className="w-80 font-sans relative hover:scale-105 transition-transform lg:mb-4  bg-[#f6f7f8] rounded-[6px]  overflow-hidden"
-        style={{ boxShadow: "0 8px 40px rgba(0, 0, 0, 0.2)" }}
-      >
-        <a
-          href={props.link}
-          rel="noreferrer"
-          target="_blank"
-          className=" overflow-hidden"
-        >
-          <LazyLoadImage
-            src={props.image}
-            //  className="rounded-full w-[120px] h-[120px] overflow-hidden mx-auto my-10 p-0 border-[6px] box-content border-[#231f39] shadow-[0px_27px_16px_-11px_rgba(31,27,56,0.25)] transition-all duration-150 ease-in hover:scale-105 cursor-pointer slide-in-elliptic-top-fwd "
-            //className="w-[120px] h-[120px] rounded-full object-cover mx-auto my-10 p-0 border-[6px] box-content border-[#231f39] shadow-[0px_27px_16px_-11px_rgba(31,27,56,0.25)] transition-all duration-150 ease-in hover:scale-105 cursor-pointer slide-in-elliptic-top-fwd"
-            className="w-[120px] h-[120px] rounded-full object-cover overflow-hidden mx-auto my-10 p-0 border-[6px] box-content border-[#231f39] shadow-[0px_27px_16px_-11px_rgba(31,27,56,0.25)] transition-all duration-150 ease-in hover:scale-105 cursor-pointer slide-in-elliptic-top-fwd"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-            alt=""
-          />
-        </a>
-        <h1 className="text-xl text-black font-bold text-center">
-          {props.name}
-        </h1>
-        <small className="block my-1 font-medium text-gray-800 text-center">
-          {props.department}
-        </small>
-        <p className="mt-5 text-blue-gray-400 text-center">{props.position}</p>
-        <div className=" w-[50%]   gap-2  rounded-full mx-auto mt-5 mb-10">
-          <a
-            href={props.link}
-            target="_blank"
-            rel="noreferrer"
-            className="social-icons items-center flex justify-center "
-          >
-            <FaLinkedinIn size={20} color="#fff" />
-          </a>
+const TeamCard = ({ name, department, position, image, link }) => {
+  return (
+    <div className="group w-80 bg-white rounded-2xl overflow-hidden border border-gray-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+      {/* Top Accent */}
+      <div className="h-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600"></div>
+
+      <div className="px-6 py-8 text-center">
+        {/* Profile Image */}
+        <div className="flex justify-center">
+          {link ? (
+            <a href={link} target="_blank" rel="noreferrer">
+              <LazyLoadImage
+                src={image}
+                alt={name}
+                className="w-32 h-32 rounded-full object-cover border-4 border-amber-500 shadow-lg transition-transform duration-300 group-hover:scale-105"
+              />
+            </a>
+          ) : (
+            <LazyLoadImage
+              src={image}
+              alt={name}
+              className="w-32 h-32 rounded-full object-cover border-4 border-amber-500 shadow-lg"
+            />
+          )}
         </div>
-      </section>
+
+        {/* Name */}
+        <h2 className="mt-6 text-2xl font-bold text-gray-900">{name}</h2>
+
+        {/* Position */}
+        <p className="mt-2 text-[#915f2e] font-semibold">{position}</p>
+
+        {/* Department */}
+        <p className="mt-2 text-gray-500 text-sm">{department}</p>
+
+        {/* Divider */}
+        <div className="w-14 h-1 bg-amber-500 rounded-full mx-auto my-5"></div>
+
+        {/* LinkedIn */}
+{link && link !== "xx" && (
+  <a
+    href={link}
+    target="_blank"
+    rel="noreferrer"
+    className="mt-6 inline-flex items-center gap-2 rounded-lg bg-[#0A66C2] px-4 py-2 text-white font-medium transition-all duration-300 hover:bg-[#084B8A] hover:-translate-y-1 hover:shadow-md"
+  >
+    <FaLinkedinIn size={18} />
+    LinkedIn
+  </a>
+)}
+      </div>
     </div>
   );
 };
